@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="WDD 131 – Dynamic Web Fundamentals | Caio Palladino Da Rosa | Course home page with bio, location card, and curated web dev resources." />
+  <meta name="author" content="Caio Palladino Da Rosa" />
+  <title>WDD 131 – Dynamic Web Fundamentals – Caio Palladino Da Rosa</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Base CSS -->
+  <link rel="stylesheet" href="styles/base.css">
+
+  <!-- Dates script -->
+  <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+    <nav class="navigation" aria-label="Primary">
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://byupw.instructure.com/" target="_blank" rel="noopener">Canvas</a>
+      <a href="https://www.churchofjesuschrist.org/study/scriptures" target="_blank" rel="noopener">Scripture</a>
+      <a href="#" aria-disabled="true">Final Project</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Caio Palladino Da Rosa</h1>
+
+    <section class="card" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Me</h2>
+      <div class="about-grid">
+        <p>
+          Hi! I’m Caio, a web development student and mentor based in Rio de Janeiro, Brazil.
+          I enjoy building clean, accessible websites and learning modern JavaScript.
+          Outside of code, I love the beach 🏖️ and spending time with family and friends.
+        </p>
+
+        <img src="images/caiophoto.jpg" width="160" height="160" alt="Simple illustrated portrait placeholder of Caio" loading="lazy">
+
+        <h3>Petrópolis, Rio de Janeiro</h3>
+        <p>
+         Rio de Janeiro State is located in southeastern Brazil and is famous for its stunning beaches, vibrant culture, and breathtaking landscapes. Its capital, also called Rio de Janeiro, is known worldwide for landmarks like Christ the Redeemer, Sugarloaf Mountain, and the Copacabana and Ipanema beaches. Beyond the city, the state offers lush mountains, historic towns such as Petrópolis, and a rich cultural heritage influenced by music, dance, and diverse traditions.
+        </p>
+
+        <figure class="flag">
+          <img src="images/bandeira.jpg" width="120" height="80" alt="Official flag of Madagascar" loading="lazy">
+          <figcaption>Official Flag of Rio de Janeiro</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="card" aria-labelledby="resources-heading">
+      <h2 id="resources-heading">Web Dev Resources</h2>
+      <ul class="resources">
+        <li><a href="https://dev.to/" target="_blank" rel="noopener">Dev.to Community</a></li>
+        <li><a href="https://css-tricks.com/" target="_blank" rel="noopener">CSS-Tricks</a></li>
+        <li><a href="https://web.dev/learn/" target="_blank" rel="noopener">web.dev Learn</a></li>
+        <li><a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN Web Docs</a></li>
+        <li><a href="https://fonts.google.com/" target="_blank" rel="noopener">Google Fonts</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      &copy; <span id="currentyear"></span> • Caio Palladino Da Rosa • Brazil
+    </p>
+    <p id="lastModified"></p>
+  </footer>
+</body>
+</html>
