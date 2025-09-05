@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="160" viewBox="0 0 240 160" role="img">
+  <title>Flag of Madagascar</title>
+  <rect width="80" height="160" fill="#ffffff"/>
+  <rect x="80" width="160" height="80" fill="#fc3d32"/>
+  <rect x="80" y="80" width="160" height="80" fill="#007e3a"/>
+  <rect x="0" y="0" width="240" height="160" fill="none" stroke="#e5e7eb"/>
+</svg>
